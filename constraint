@@ -1,0 +1,20 @@
+
+
+Requirement:
+1 format of diagram: dia and eps
+2 RAS point: Green cycle
+  RAS weak : Red cycle
+  Start with a prefix + number from 00-99, for example
+  FS00, FS01 ...
+    Prefix table:
+    File System       - FS
+    NetWork           - NW
+    Memory Management - MM
+    Device Management - DM
+    I/O Path          - IO
+    Timer Interrupt   - TI
+    Process Management- PM
+    ACPI              - AC
+    Initial Shutdown  - IS
+    Module            - MO
+3 

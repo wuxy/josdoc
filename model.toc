@@ -1,0 +1,63 @@
+\contentsline {chapter}{\numberline {1}外内核背景}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}外内核的起源}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}小小节标题}{7}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}外内核的特点}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}外内核研究与发展环境分析}{9}{section.1.3}
+\contentsline {chapter}{\numberline {2}绪论}{10}{chapter.2}
+\contentsline {paragraph}{与其他操作系统架构的关系}{12}{figure.2.1}
+\contentsline {chapter}{\numberline {3}JOS架构与设计}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}JOS整体架构}{14}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}外内核架构}{14}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}整体架构视图}{14}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}系统初始化设计与实现}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}内存管理设计与实现}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}物理内存探测}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}三种地址——虚拟地址，线性地址，物理地址}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}物理页面管理}{16}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}物理页面的跟踪}{16}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}物理页面管理结构初始化}{17}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}分配一个物理页面}{17}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}释放一个物理页面}{18}{subsubsection.3.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}虚拟内存管理}{18}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}JOS虚拟内存地址空间布局}{18}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}内核虚拟地址空间}{21}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}基于分页机制的页面映射管理}{21}{subsubsection.3.3.4.3}
+\contentsline {section}{\numberline {3.4}进程管理系统设计与实现}{22}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}进程管理结构体}{23}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}进程创建}{24}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}进程调度}{26}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}进程销毁}{26}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}中断与异常}{26}{subsection.3.4.5}
+\contentsline {paragraph}{中断描述符表}{27}{subsection.3.4.5}
+\contentsline {paragraph}{任务状态段}{27}{subsection.3.4.5}
+\contentsline {paragraph}{中断和异常使用的主要数据结构}{28}{subsection.3.4.5}
+\contentsline {paragraph}{中断向量表的初始化}{29}{lstnumber.-5.12}
+\contentsline {paragraph}{中断和异常的处理流程}{29}{lstnumber.-5.12}
+\contentsline {subsection}{\numberline {3.4.6}上下文切换}{31}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}基于异常处理的操作系统原语}{32}{subsection.3.4.7}
+\contentsline {paragraph}{1 页故障处理}{32}{subsection.3.4.7}
+\contentsline {paragraph}{(1) 触发页面故障的条件}{33}{subsection.3.4.7}
+\contentsline {paragraph}{(2) 用户级页面故障处理机制}{33}{subsection.3.4.7}
+\contentsline {paragraph}{用户级页面故障处理程序注册}{34}{subsection.3.4.7}
+\contentsline {paragraph}{用户级页面故障处理基本过程}{34}{figure.3.6}
+\contentsline {paragraph}{2 断点异常处理}{34}{figure.3.6}
+\contentsline {paragraph}{3 系统调用}{34}{figure.3.6}
+\contentsline {section}{\numberline {3.5}多任务设计与实现}{36}{section.3.5}
+\contentsline {section}{\numberline {3.6}文件系统设计与实现}{36}{section.3.6}
+\contentsline {paragraph}{文件系统原语}{36}{section.3.6}
+\contentsline {paragraph}{磁盘文件系统结构}{36}{section.3.6}
+\contentsline {subsubsection}{\numberline {3.6.0.1}网络驱动设计与实现}{36}{subsubsection.3.6.0.1}
+\contentsline {section}{\numberline {3.7}JOS技术创新点}{36}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}系统初始化}{37}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}技术点分析}{37}{subsubsection.3.7.1.1}
+\contentsline {subsection}{\numberline {3.7.2}内存管理}{37}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}用户环境}{37}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.4}多任务}{37}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.7.5}文件系统}{37}{subsection.3.7.5}
+\contentsline {subsection}{\numberline {3.7.6}网络驱动}{37}{subsection.3.7.6}
+\contentsline {section}{\numberline {3.8}JOS研究与发展}{37}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}MIT研究进展及技术贡献}{37}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}其他相关研究}{37}{subsection.3.8.2}
+\contentsline {chapter}{参考文献}{37}{subsection.3.8.2}
+\contentsline {chapter}{\numberline {A}附录标题1}{40}{appendix.A}
+\contentsline {section}{\numberline {A.1}附录1.1}{40}{section.A.1}
